@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-image: url("./cat-background.jpg");
+  background-color: cornflowerblue;
   
   margin: 0; 
 }
@@ -10,15 +10,21 @@ img {
   height: 202px;
   margin: 10px;
   border-radius: 10px;
-  transform: translate(-10px, -11px)
+  transform: translate(-10px, -11px);
+  user-drag: none;  
+   user-select: none;
+   -moz-user-select: none;
+   -webkit-user-drag: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
   
 
 }
 
 
 h1 {
-  color: white;
-  background-color: thistle;
+  color: rgb(59, 16, 63);
+  /* background-color: thistle; */
   padding: 30px;
   font-size: 3rem;
   
@@ -47,7 +53,7 @@ button {
 
 #score-div {
   
-  transform: translate(43%, -50%)
+  transform: translate(44.5%, -50%)
 }
 
 #score-span {

@@ -117,7 +117,7 @@ function handleCardClick(e) {
 
       cardIds = [];
       selectedCards = [];
-    }, 500);
+    }, 300);
   }
 }
 
